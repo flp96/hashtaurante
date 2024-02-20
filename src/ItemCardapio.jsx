@@ -1,5 +1,3 @@
-import { enroladinhoMignon } from './cardapio';
-
 export function ItemCardapio(props) {
     return (
     <div className='container-item-cardapio'>
