@@ -17,7 +17,7 @@ export function App() {
     <>
     <img src={Hashtaurante} alt="" className="capa"/>
     <Navegacao atualizarPaginaSelecionada={atualizarPaginaSelecionada}/>
-    <div class="menu">
+    <div className="menu">
       {paginasMenu[paginaSelecionada].map(item => <ItemCardapio nome={item.nome} descricao={item.descricao} preco={item.preco} imagem={item.imagem}/>)}
     </div>
     </>

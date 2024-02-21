@@ -1,17 +1,3 @@
-const opcoes = document.getElementsByName('opcao-pagina');
-
-Array.from(opcoes).forEach(opcao => {
-    opcao.addEventListener('click', function () {
-        const elementoClicado = this;
-
-        if(elementoClicado.classList.contains('active')) {
-            elementoClicado.classList.remove('active');
-        } else {
-            elementoClicado.classList.add('active');
-        }
-    });
-});
-
 export function Navegacao(props) {
     return (
         <div className="navegacao">
@@ -24,3 +10,5 @@ export function Navegacao(props) {
         </div>
     )
 }
+
+
